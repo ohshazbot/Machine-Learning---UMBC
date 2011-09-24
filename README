@@ -1,0 +1,5 @@
+This is a repository for my work in Machine Learning.
+
+At the time of writing this, this is the code for the data types I will be using.
+The first assignment will take a piece of data and, with 4 fold cross-validation, perform k-nearest-neighbor with some improvements of my own to it after the fact.
+
