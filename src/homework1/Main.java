@@ -45,9 +45,8 @@ public class Main {
 		else
 		{
 			System.out.println("Operation");
-			op = (Operation) Class.forName(stdin.readLine()).newInstance();
+			op = (Operation) Class.forName("homework1."+stdin.readLine()).newInstance();
 		}
-//		Operation op = new KNN();		
 		String[] newArgs = new String[Math.max(args.length-3, 0)];
 		for (int i = 0; i < newArgs.length; i++)
 			newArgs[i] = args[i+2];

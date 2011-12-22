@@ -165,7 +165,7 @@ public class KNN implements Operation {
 			m = args[1];
 		} else
 		{
-			System.out.println("Mode?");
+			System.out.println("Mode? [ITER]");
 			m = stdin.readLine();
 		}
 		if (m.equalsIgnoreCase("iterate"))
@@ -179,7 +179,7 @@ public class KNN implements Operation {
 			d = args[2];
 		} else
 		{
-			System.out.println("Distance?");
+			System.out.println("Distance? [EUCLID]");
 			d = stdin.readLine();
 		}
 		if (d.equalsIgnoreCase("euclid"))
@@ -194,7 +194,7 @@ public class KNN implements Operation {
 			n = args[3];
 		} else
 		{
-			System.out.println("Neighbor average?");
+			System.out.println("Neighbor average? [AVERAGE]");
 			n = stdin.readLine();
 		}
 		if (n.equalsIgnoreCase("weighted"))

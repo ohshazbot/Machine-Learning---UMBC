@@ -7,12 +7,12 @@ public class Result {
 
 	public double successRate() 
 	{
-		return success*1.0/total;
+		return success*100.0/total;
 	}
 
 	public double failureRate()
 	{
-		return failure*1.0/total;
+		return failure*100.0/total;
 	}
 
 	public static Result add(Result r1, Result r2)
